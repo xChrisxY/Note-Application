@@ -1,0 +1,24 @@
+/build
+# Gradle
+.gradle/
+*/build/
+
+# IDEs
+.idea/
+*.iml
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Archivos específicos de Android
+/local.properties
+
+# Archivos de Logs
+*.log
+
+# Archivos generados por Gradle
+*.apk
+*.aar
+*.class
+

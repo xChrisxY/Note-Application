@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77791087975",
+    "project_id": "kotlin-push-notification-90d89",
+    "storage_bucket": "kotlin-push-notification-90d89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77791087975:android:139cfb50c7cfae685233c2",
+        "android_client_info": {
+          "package_name": "com.example.push_notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ9PnJ4RL0D0yt60Q9Wpi1OIgrbxw2zrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
