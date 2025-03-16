@@ -61,6 +61,19 @@ dependencies {
     implementation ("androidx.core:core-ktx:1.9.0") // Para ContextCompat y ActivityCompat
     implementation ("androidx.activity:activity-ktx:1.7.0") // Para Activity
     implementation ("androidx.fragment:fragment-ktx:1.5.7") // Para Fragment
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // EncryptedSharedPreferences
+    implementation ("androidx.security:security-crypto:1.1.0-alpha06")
+
+    // ViewModel con soporte para Corutines
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.6.1") // Compose
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2") // Para usar viewModel en Compose
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -69,6 +82,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.protolite.well.known.types)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
